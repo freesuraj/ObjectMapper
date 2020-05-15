@@ -8,6 +8,9 @@ let package = Package(
     platforms: [
         .iOS(.v11)
     ],
+    products: [.library(name: "ObjectMapper",
+                        targets: ["ObjectMapper"])
+    ],
     dependencies: [],
     targets: [
         .target(
